@@ -4,22 +4,22 @@ import { useRouter } from 'expo-router';
 
 // Tumia picha zako za assets kwa icons za miduara
 const categories = [
-  { key: 'Kitchen', label: 'Kitchen', icon: require('../assets/kitchen.jpg') },
-  { key: 'Bedroom', label: 'Bedroom', icon: require('../assets/bedroom.jpg') },
-  { key: 'Livingroom', label: 'Livingroom', icon: require('../assets/livingroom.jpg') },
-  { key: 'Washingroom', label: 'Washingroom', icon: require('../assets/washingroom.jpg') },
+  { key: 'Kitchen', label: 'Kitchen', icon: require('../../assets/kitchen.jpg') },
+  { key: 'Bedroom', label: 'Bedroom', icon: require('../../assets/bedroom.jpg') },
+  { key: 'Livingroom', label: 'Livingroom', icon: require('../../assets/livingroom.jpg') },
+  { key: 'Washingroom', label: 'Washingroom', icon: require('../../assets/washingroom.jpg') },
 ];
 
 // Kila design ina price
 const designs = [
-  { id: 1, name: 'Modern Kitchen', category: 'Kitchen', image: require('../assets/kitchen.jpg'), price: 100 },
-  { id: 2, name: 'Classic Kitchen', category: 'Kitchen', image: require('../assets/kitchen.jpg'), price: 120 },
-  { id: 3, name: 'Cozy Bedroom', category: 'Bedroom', image: require('../assets/bedroom.jpg'), price: 90 },
-  { id: 4, name: 'Modern Bedroom', category: 'Bedroom', image: require('../assets/bedroom.jpg'), price: 110 },
-  { id: 5, name: 'Spacious Livingroom', category: 'Livingroom', image: require('../assets/livingroom.jpg'), price: 150 },
-  { id: 6, name: 'Modern Livingroom', category: 'Livingroom', image: require('../assets/livingroom.jpg'), price: 130 },
-  { id: 7, name: 'Clean Washingroom', category: 'Washingroom', image: require('../assets/washingroom.jpg'), price: 80 },
-  { id: 8, name: 'Simple Washingroom', category: 'Washingroom', image: require('../assets/washingroom.jpg'), price: 70 },
+  { id: 1, name: 'Modern Kitchen', category: 'Kitchen', image: require('../../assets/kitchen.jpg'), price: 1000 },
+  { id: 2, name: 'Classic Kitchen', category: 'Kitchen', image: require('../../assets/kitchen.jpg'), price: 1200 },
+  { id: 3, name: 'Cozy Bedroom', category: 'Bedroom', image: require('../../assets/bedroom.jpg'), price: 900 },
+  { id: 4, name: 'Modern Bedroom', category: 'Bedroom', image: require('../../assets/bedroom.jpg'), price: 1100 },
+  { id: 5, name: 'Elegant Livingroom', category: 'Livingroom', image: require('../../assets/livingroom.jpg'), price: 1300 },
+  { id: 6, name: 'Modern Livingroom', category: 'Livingroom', image: require('../../assets/livingroom.jpg'), price: 1500 },
+  { id: 7, name: 'Classic Washingroom', category: 'Washingroom', image: require('../../assets/washingroom.jpg'), price: 800 },
+  { id: 8, name: 'Modern Washingroom', category: 'Washingroom', image: require('../../assets/washingroom.jpg'), price: 1000 },
 ];
 
 export default function Design() {

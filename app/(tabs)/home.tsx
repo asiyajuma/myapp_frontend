@@ -2,7 +2,7 @@ import { View, Text, TouchableOpacity, Image, StyleSheet } from 'react-native';
 import { useRouter } from 'expo-router';
 
 
-const bedroomImage = require('../assets/bedroom.jpg');
+const bedroomImage = require('../../assets/bedroom.jpg');
 
 export default function HomePage() {
   const router = useRouter();
